@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>电商APP项目</title>
+  <!-- 引入Bootstrap的CSS文件 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body>
+  <div class="container">
+    <!-- 顶部通栏 -->
+    <div class="jumbotron">
+      <h1>刘关雨</h1>
+      <p>20222081105</p>
+    </div>
+
+    <!-- 导航栏 -->
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- 导航栏的标题 -->
+        <div class="navbar-header">
+          <a class="navbar-brand" href="Untitled-1.html">首页</a>
+        </div>
+        <!-- 导航栏的链接 -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li><a href="#">商品分类</a></li>
+            <li><a href="购物车.html">购物车</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- 轮播图 -->
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+      <!-- 轮播图的指示器 -->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+        <!-- 轮播图的内容 -->
+        <div class="carousel-inner" role="listbox">
+        <div class="item active">
+        <img src="img/2.jpg" alt="First slide">
+        </div>
+        <div class="item">
+        <img src="img/1.jpg" alt="Second slide">
+        </div>
+        <div class="item">
+        <img src="img/3.jpg" alt="Third slide">
+        </div>
+        </div>
+        <!-- 轮播图的控制按钮 -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+        </a>
+        </div>
+        <!-- 信息模块 -->
+<div class="row">
+  <div class="col-md-4">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">模块1</h3>
+      </div>
+      <div class="panel-body">
+        内容1
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">模块2</h3>
+      </div>
+      <div class="panel-body">
+        内容2
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">模块3</h3>
+      </div>
+      <div class="panel-body">
+        内容3
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 预约模块 -->
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">预约模块</h3>
+  </div>
+  <div class="panel-body">
+  请填写预约信息：
+  <form>
+  <div class="form-group">
+  <label for="name">姓名：</label>
+  <input type="text" class="form-control" id="name" placeholder="请输入您的姓名">
+  </div>
+  <div class="form-group">
+  <label for="phone">电话：</label>
+  <input type="text" class="form-control" id="phone" placeholder="请输入您的联系电话">
+  </div>
+  <button type="submit" class="btn btn-default">提交</button>
+  </form>
+  </div>
+  </div>
+  <!-- 产品模块 -->
+<div class="row">
+  <div class="col-md-3">
+    <div class="thumbnail">
+      <img src="img/11.jpg" alt="产品1">
+      <div class="caption">
+        <h3>iPhone 11</h3>
+        <p>价格：4999</p>
+        <p>
+          <a href="购物车.html" class="btn btn-primary" role="button">加入购物车</a>
+          <a href="#" class="btn btn-default" role="button">查看详情</a>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3">
+    <div class="thumbnail">
+      <img src="img/13.jpg" alt="产品2">
+      <div class="caption">
+        <h3>iPhone 13promax</h3>
+        <p>价格：9999</p>
+        <p>
+          <a href="购物车.html" class="btn btn-primary" role="button">加入购物车</a>
+          <a href="#" class="btn btn-default" role="button">查看详情</a>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3">
+    <div class="thumbnail">
+      <img src="img/12.jpg" alt="产品3">
+      <div class="caption">
+        <h3>iPhone 12</h3>
+        <p>价格：5799</p>
+        <p>
+          <a href="购物车.html" class="btn btn-primary" role="button">加入购物车</a>
+          <a href="#" class="btn btn-default" role="button">查看详情</a>
+        </p>
+        </div>
+        </div>
+        </div>
+        <div class="col-md-3">
+        <div class="thumbnail">
+        <img src="img/b.jpg" alt="产品4">
+        <div class="caption">
+        <h3>iPhone 13</h3>
+        <p>价格：5999</p>
+        <p>
+        <a href="购物车.html" class="btn btn-primary" role="button">加入购物车</a>
+        <a href="" class="btn btn-default" role="button">查看详情</a>
+        </p>
+        </div>
+        </div>
+        </div>
+        </div>
+        <!-- 新闻模块 -->
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">新闻模块</h3>
+  </div>
+  <div class="panel-body">
+    <ul class="list-group">
+      <li class="list-group-item">新闻1</li>
+      <li class="list-group-item">新闻2</li>
+      <li class="list-group-item">新闻3</li>
+    </ul>
+  </div>
+</div>
+
+<!-- 合作伙伴模块 -->
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">合作伙伴</h3>
+  </div>
+  <div class="panel-body">
+    <ul class="list-group">
+      <li class="list-group-item">
+        <img src="https://via.placeholder.com/100x100" alt="合作伙伴1">
+      </li>
+      <li class="list-group-item">
+        <img src="https://via.placeholder.com/100x100" alt="合作伙伴2">
+      </li>
+      <li class="list-group-item">
+        <img src="https://via.placeholder.com/100x100" alt="合作伙伴3">
+      </li>
+    </ul>
+  </div>
+</div>
+
+<!-- 安装包二维码 -->
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">安装包二维码</h3>
+  </div>
+  <div class="panel-body">
+    <img src="https://via.placeholder.com/150x150" alt="安装包二维码">
+  </div>
+</div>
+</div>
+<!-- 引入jQuery和Bootstrap的JS文件 -->
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
